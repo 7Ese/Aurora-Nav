@@ -1,0 +1,20 @@
+{
+  "name": "个人导航",
+  "short_name": "导航",
+  "description": "现代化个人导航网站",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "lang": "zh-CN",
+  "dir": "ltr"
+}
