@@ -52,7 +52,15 @@
 - � **一键重置** - 快速恢复默认配置
 - 🧹 **缓存清理** - 管理本地存储空间
 
-## 🚀 快速开始
+## � 功能展示
+
+### 双模式智能搜索
+![双模式智能搜索](public/screenshots/feature-search.png)
+
+### 其他亮点功能
+![其他亮点功能](public/screenshots/feature-highlights.png)
+
+## �🚀 快速开始
 
 ### 环境要求
 
@@ -63,8 +71,8 @@
 
 ```bash
 # 1. 克隆项目
-git clone <your-repo-url>
-cd nova-nav-hub-main
+git clone https://github.com/7Ese/Aurora-Nav.git
+cd Aurora-Nav
 
 # 2. 安装依赖
 npm install
@@ -297,8 +305,8 @@ nova-nav-hub-main/
 ## 📮 联系方式
 
 如有问题或建议,欢迎通过以下方式联系:
-- 提交 [Issue](https://github.com/your-repo/issues)
-- 发送邮件至: your-email@example.com
+- 提交 [Issue](https://github.com/7Ese/Aurora-Nav/issues)
+- 发送邮件至: hi@wayne.im
 
 ---
 
