@@ -8,6 +8,21 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178c6?logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.4-646cff?logo=vite)](https://vitejs.dev/)
 
+## 项目预览
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="public/screenshots/homepage.png" alt="首页 - 时间天气搜索" />
+      <p align="center"><b>首页 - 时间天气搜索</b></p>
+    </td>
+    <td width="50%">
+      <img src="public/screenshots/navigation.png" alt="导航页面 - 分类标签" />
+      <p align="center"><b>导航页面 - 分类标签</b></p>
+    </td>
+  </tr>
+</table>
+
 ## 核心特色
 
 ### 双模式智能搜索
