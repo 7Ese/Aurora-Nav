@@ -12,16 +12,16 @@ interface FooterProps {
   isEditing: boolean;
 }
 
-export const Footer = ({ 
-  onLogin, 
-  onToggleEdit, 
-  onSave, 
-  onReset, 
-  onAddCategory, 
+export const Footer = ({
+  onLogin,
+  onToggleEdit,
+  onSave,
+  onReset,
+  onAddCategory,
   onClearCache,
   onExportConfig,
   isAuthenticated,
-  isEditing 
+  isEditing
 }: FooterProps) => {
   const [showLogin, setShowLogin] = useState(false);
   const [password, setPassword] = useState('');
@@ -89,16 +89,15 @@ export const Footer = ({
                 <div className="flex flex-wrap items-center gap-2">
                   <button
                     onClick={onToggleEdit}
-                    className={`text-sm px-3 py-2 rounded-lg transition-all duration-300 bg-glass-bg/50 backdrop-blur-md border border-glass-border text-white hover:bg-glass-bg/70 shadow-glass ${
-                      isEditing 
-                        ? 'ring-2 ring-green-400/50' 
+                    className={`text-sm px-3 py-2 rounded-lg transition-all duration-300 bg-glass-bg/50 backdrop-blur-md border border-glass-border text-white hover:bg-glass-bg/70 shadow-glass ${isEditing
+                        ? 'ring-2 ring-green-400/50'
                         : ''
-                    }`}
+                      }`}
                   >
                     <i className={`fas ${isEditing ? 'fa-eye' : 'fa-edit'} mr-1`}></i>
                     {isEditing ? '预览' : '编辑导航'}
                   </button>
-                  
+
                   {isEditing && (
                     <>
                       <button
@@ -108,7 +107,7 @@ export const Footer = ({
                         <i className="fas fa-save mr-1"></i>
                         保存
                       </button>
-                      
+
                       <button
                         onClick={onAddCategory}
                         className="text-sm px-3 py-2 bg-purple-500/20 text-purple-300 hover:bg-purple-500/30 rounded-lg transition-colors"
@@ -118,7 +117,7 @@ export const Footer = ({
                       </button>
                     </>
                   )}
-                  
+
                   <button
                     onClick={onReset}
                     className="text-sm px-3 py-2 bg-red-500/20 text-red-300 hover:bg-red-500/30 rounded-lg transition-colors"

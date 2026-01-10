@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:web": "vite build",
+    "build:extension": "vite build --mode extension && cp manifest.json dist/",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
